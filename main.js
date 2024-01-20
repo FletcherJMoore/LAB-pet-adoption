@@ -1,34 +1,34 @@
-const pets = [
+ const pets = [
     {
       id: 1,
       name: "Dusty",
-      color: "Green",
-      specialSkill: "Gives sincere apologies.",
-      type: "cat",
+      color: "Grey",
+      specialSkill: "Never sheds.",
+      typeOfPet: "cat",
       imageUrl: "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg",
     },
     {
         id: 2,
       name: "Trouble",
       color: "Brown",
-      specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
-      type: "dino",
-      imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
+      specialSkill: "Doesn't bite.",
+      typeOfPet: "dino",
+      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt1zMd9rsnu5IhPLz57tvIYSdtNjLhnBFY6w&usqp=CAU",
     },
     {
       id: 3,
       name: "Whiskers",
-      color: "Yellow",
-      specialSkill: "Can prove he is a real man by drinking whiskey.",
-      type: "dino",
+      color: "Green",
+      specialSkill: "Alwasy finds a way to comfort you even if you're down.",
+      typeOfPet: "dino",
       imageUrl: "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg"
     },
     {
       id: 4,
       name: "Coco",
-      color: "Black",
+      color: "Yellow",
       specialSkill: "Burps minimally.",
-      type: "dog",
+      typeOfPet: "dog",
       imageUrl: "http://cdn.akc.org/content/article-body-image/funny-pembroke_welsh_corgi.jpg"
     },
     {
@@ -36,23 +36,23 @@ const pets = [
       name: "Spooky",
       color: "Brown",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
-      type: "cat",
+      typeOfPet: "cat",
       imageUrl: "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg"
     },
     {
       id: 6,
       name: "Tiger",
-      color: "Black",
-      specialSkill: "Can read (but cannot understand) Hebrew.",
-      type: "dog",
+      color: "Brown and White",
+      specialSkill: "Can run for miles without getting tired",
+      typeOfPet: "dog",
       imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Basset_Hound_600.jpg"
     },
     {
       id: 7,
       name: "Oreo",
-      color: "Yellow",
-      specialSkill: "Able to stop chewing ice or whistling on request.",
-      type: "cat",
+      color: "White",
+      specialSkill: "Able to hide in the smallest of places",
+      typeOfPet: "cat",
       imageUrl: "https://i.pinimg.com/originals/9d/da/3e/9dda3e5fd2b9886fc3d13ee47f52e8a0.jpg"
     },
     {
@@ -60,23 +60,23 @@ const pets = [
       name: "Ginger",
       color: "Grey",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
-      type: "dino",
-      imageUrl: "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg"
+      typeOfPet: "dino",
+      imageUrl: "https://pics.craiyon.com/2023-06-08/7ba3dfac97814500820dbf8929d1f008.webp"
     },
     {
       id: 9,
       name: "Sassy",
-      color: "Brown",
-      specialSkill: "Adept at talking self and others out of fights.",
-      type: "cat",
+      color: "Grey",
+      specialSkill: "Can leave any couch unscratched",
+      typeOfPet: "cat",
       imageUrl: "https://tailandfur.com/wp-content/uploads/2015/09/40-Amazing-Cat-Funny-Moment-Pictures-Feature-Image.jpg"
     },
     {
       id: 10,
       name: "Sammy",
-      color: "Blue",
+      color: "Yellow",
       specialSkill: "Listens attentively to boring stories.",
-      type: "cat",
+      typeOfPet: "cat",
       imageUrl: "https://i.pinimg.com/originals/04/54/92/0454926d39eeb420f4f01948e94e9e41.jpg"
     },
     {
@@ -84,127 +84,127 @@ const pets = [
       name: "Coco",
       color: "Orange",
       specialSkill: "Can be around food without staring creepily at it.",
-      type: "dino",
-      imageUrl: "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600"
+      typeOfPet: "dino",
+      imageUrl: "https://variety.com/wp-content/uploads/2022/06/2512_D093_00185RV4_CROP-e1654811831650.jpeg"
     },
     {
       id: 12,
       name: "Buster",
-      color: "Green",
-      specialSkill: "Does not use excessive acronyms.",
-      type: "dog",
+      color: "Brown and White",
+      specialSkill: "Doesn't bark at the mailman.",
+      typeOfPet: "dog",
       imageUrl: "https://i.pinimg.com/originals/1f/30/8c/1f308c9c108a384b91b39430cc7312e9.jpg"
     },
     {
       id: 13,
       name: "Chester",
-      color: "Red",
-      specialSkill: "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
-      type: "dog",
-      imageUrl: "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg"
+      color: "Black",
+      specialSkill: "Will always bring the ball back after you throw it.",
+      typeOfPet: "dog",
+      imageUrl: "https://animalcarecentersmyrna.com/wp-content/uploads/2020/09/black-dog-.jpeg"
     },
     {
       id: 14,
       name: "Samantha",
-      color: "Brown",
+      color: "Black and White",
       specialSkill: "Always up for dessert.",
-      type: "cat",
+      typeOfPet: "cat",
       imageUrl: "http://3.bp.blogspot.com/-RzIFLsIO-XQ/UFoMLOT66JI/AAAAAAAAVps/JRF98hdA9S8/s640/funny-cat-pictures-016-027.jpg"
     },
     {
       id: 15,
       name: "Coco",
-      color: "Red",
+      color: "Yellow",
       specialSkill: "Burps minimally.",
-      type: "cat",
+      typeOfPet: "cat",
       imageUrl: "http://cathumor.net/wp-content/uploads/2013/12/cat-humor-funny-karate-cat-2.jpg"
     },
     {
       id: 16,
       name: "Smokey",
       color: "Brown",
-      specialSkill: "Drives at a safe rate of speed in snow or rain.",
-      type: "dino",
-      imageUrl: "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg"
+      specialSkill: "Can outrun any car.",
+      typeOfPet: "dino",
+      imageUrl: "https://i1.pickpik.com/photos/307/341/287/dinosaur-gad-mammal-dino-preview.jpg"
     },
     {
      id: 17,
       name: "Muffin",
-      color: "Yellow",
-      specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
-      type: "cat",
+      color: "Brown and White",
+      specialSkill: "Doesn't get angry at guests.",
+      typeOfPet: "cat",
       imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg"
     },
     {
       id: 18,
       name: "Salem",
       color: "Brown",
-      specialSkill: "Proficient in air guitar",
-      type: "dino",
-      imageUrl: "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg"
+      specialSkill: "Can chase a laser for hours",
+      typeOfPet: "dino",
+      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlBOBdiL19nvqxMNYKiU_1uD8shBKatwjfkA&usqp=CAU"
     },
     {
       id: 19,
       name: "Callie",
-      color: "Blue",
+      color: "Black and White",
       specialSkill: "Listens attentively to boring stories.",
-      type: "dog",
+      typeOfPet: "dog",
       imageUrl: "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg"
     },
     {
       id: 20,
       name: "Spooky",
-      color: "Black",
+      color: "White",
       specialSkill: "Uses litter box at appropriate hours.",
-      type: "cat",
+      typeOfPet: "cat",
       imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg"
     },
     {
       id: 21,
       name: "Miss kitty",
-      color: "Red",
-      specialSkill: "Owns a Nintendo Power Glove.",
-      type: "dino",
-      imageUrl: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715"
+      color: "Black",
+      specialSkill: "Has scales harder than steel.",
+      typeOfPet: "dino",
+      imageUrl: "https://img.artpal.com/729972/10-23-5-7-10-45-52m.jpg"
     },
     {
         id: 22,
       name: "Snuggles",
       color: "Orange",
-      specialSkill: "Is comfortable with jokes about his receding hairline.",
-      type: "cat",
-      imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg"
+      specialSkill: "Sleeps for 12 hours at a time.",
+      typeOfPet: "cat",
+      imageUrl: "https://www.rd.com/wp-content/uploads/2021/05/GettyImages-1286283054.jpg"
     },
     {
         id: 23,
       name: "Buddy",
-      color: "Red",
+      color: "Black and White",
       specialSkill: "Enjoys fine wine.",
-      type: "dog",
+      typeOfPet: "dog",
       imageUrl: "http://1.bp.blogspot.com/-VjM0CmtN-vU/T7YX-LXa09I/AAAAAAAADA0/Vt1oGWEG0lw/s1600/sheepdog+border+collie+shakes+off+water+funny+picture+photo+pulling+faces+raspberry+tongue.jpg"
     },
     {
         id: 24,
       name: "George",
       color: "Brown",
-      specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
-      type: "dog",
+      specialSkill: "Is loving with all animals.",
+      typeOfPet: "dog",
       imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg"
     },
     {
       id: 25,
       name: "Salem",
-      color: "Red",
-      specialSkill: "Knows the words to 4 rap songs.",
-      type: "cat",
-      imageUrl: "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg"
+      color: "Black",
+      specialSkill: "Can go an entire day without giving bad luck.",
+      typeOfPet: "cat",
+      imageUrl: "https://us.feliway.com/cdn/shop/articles/10_fascinating_facts_about_black_cats-3.jpg?v=1667409596"
     },
     {
         id: 26,
       name: "Bubba",
-      color: "Yellow",
+      color: "Grey",
       specialSkill: "Cleans himself.",
-      type: "dog",
+      typeOfPet: "dog",
       imageUrl: "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg"
     },
     {
@@ -212,31 +212,52 @@ const pets = [
       name: "Chloe",
       color: "Green",
       specialSkill: "Admits he is wrong",
-      type: "dino",
+      typeOfPet: "dino",
       imageUrl: "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg"
     },
     {
         id: 28,
       name: "Nala",
-      color: "Purple",
+      color: "Grey",
       specialSkill: "Dances when he has to.",
-      type: "cat",
+      typeOfPet: "cat",
       imageUrl: "https://tailandfur.com/wp-content/uploads/2016/03/40-Scary-and-Funny-Cat-Pictures-8.jpg"
     },
     {
         id: 29,
       name: "Oscar",
-      color: "Green",
+      color: "Grey",
       specialSkill: "Gives hugs with appropriate pressure and for the right length of time.",
-      type: "cat",
+      typeOfPet: "cat",
       imageUrl: "http://img.izismile.com/img/img2/20090219/cats_02.jpg"
     },
     {
         id: 30,
       name: "Lucy",
-      color: "Red",
-      specialSkill: "Doesn’t get weirded out by the word “moist.”",
-      type: "dino",
-      imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
-    }
+      color: "Grey",
+      specialSkill: "Can see the top of the tallest mountain.",
+      typeOfPet: "dino",
+      imageUrl: "https://as2.ftcdn.net/v2/jpg/02/59/13/99/1000_F_259139944_4JR1zTCug0P7KBWyq9stiPj5nsYHKODE.jpg"
+    },
   ];
+  console.log(pets["specialSkill"]);
+
+
+  const app = document.querySelector("#app");
+
+  app.innerHTML = "Hello World!";
+
+  const targetingApp = document.querySelector("#app");
+
+let domString = "";
+for (const pet of pets) {
+  domString += `<div class="card" style="width: 18rem;">
+      <img src=${pets.imageUrl} class="card-img-top" alt=${pets.name}>
+      <div class="card-body">
+        <h5 class="card-title">${pets.name}</h5>
+        <p class="card-text">${pets.specialSkill}</p>
+      </div>
+    </div>`;
+};
+
+targetingApp.innerHTML = domString;
